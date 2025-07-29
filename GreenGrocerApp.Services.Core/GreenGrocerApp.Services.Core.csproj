@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreenGrocerApp.Data.Models\GreenGrocerApp.Data.Models.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.Data\GreenGrocerApp.Data.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.GCommon\GreenGrocerApp.GCommon.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.Services.AutoMapping\GreenGrocerApp.Services.AutoMapping.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.Services.Common\GreenGrocerApp.Services.Common.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.Web.ViewModels\GreenGrocerApp.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
+

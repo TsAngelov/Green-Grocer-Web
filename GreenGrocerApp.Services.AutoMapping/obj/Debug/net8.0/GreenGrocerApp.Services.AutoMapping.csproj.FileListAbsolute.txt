@@ -1,0 +1,17 @@
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.deps.json
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.GCommon.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.Services.Common.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.GCommon.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\bin\Debug\net8.0\GreenGrocerApp.Services.Common.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.csproj.AssemblyReference.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.AssemblyInfoInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.AssemblyInfo.cs
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.csproj.CoreCompileInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGro.9176635E.Up2Date
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\refint\GreenGrocerApp.Services.AutoMapping.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\GreenGrocerApp.Services.AutoMapping.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.AutoMapping\obj\Debug\net8.0\ref\GreenGrocerApp.Services.AutoMapping.dll

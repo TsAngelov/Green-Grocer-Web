@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Seeding\Dtos\" />
+    <Folder Include="Seeding\Input\" />
+    <Folder Include="Seeding\Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreenGrocerApp.Data.Common\GreenGrocerApp.Data.Common.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.Data.Models\GreenGrocerApp.Data.Models.csproj" />
+    <ProjectReference Include="..\GreenGrocerApp.GCommon\GreenGrocerApp.GCommon.csproj" />
+  </ItemGroup>
+
+</Project>
+

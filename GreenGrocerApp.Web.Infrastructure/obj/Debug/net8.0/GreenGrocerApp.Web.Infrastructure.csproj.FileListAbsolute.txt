@@ -1,0 +1,15 @@
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\bin\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.deps.json
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\bin\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\bin\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\bin\Debug\net8.0\GreenGrocerApp.GCommon.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\bin\Debug\net8.0\GreenGrocerApp.GCommon.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.csproj.AssemblyReference.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.AssemblyInfoInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.AssemblyInfo.cs
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGro.B2F6DCF2.Up2Date
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\refint\GreenGrocerApp.Web.Infrastructure.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\GreenGrocerApp.Web.Infrastructure.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Web.Infrastructure\obj\Debug\net8.0\ref\GreenGrocerApp.Web.Infrastructure.dll

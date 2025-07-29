@@ -1,0 +1,11 @@
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\bin\Debug\net8.0\GreenGrocerApp.Services.Common.deps.json
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\bin\Debug\net8.0\GreenGrocerApp.Services.Common.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\bin\Debug\net8.0\GreenGrocerApp.Services.Common.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.AssemblyInfoInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.AssemblyInfo.cs
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.csproj.CoreCompileInputs.cache
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\refint\GreenGrocerApp.Services.Common.dll
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\GreenGrocerApp.Services.Common.pdb
+D:\Green-Grocer-Web\GreenGrocerApp.Services.Common\obj\Debug\net8.0\ref\GreenGrocerApp.Services.Common.dll
