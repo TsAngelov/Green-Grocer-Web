@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {}
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {}
   },
   "projects": {
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
         "projectName": "GreenGrocerApp.Services.Common",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

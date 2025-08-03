@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj": {}
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj": {}
   },
   "projects": {
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj",
         "projectName": "GreenGrocerApp.Data.Common",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj",
         "projectName": "GreenGrocerApp.Data.Models",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,11 +97,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               }
             }
           }
@@ -116,7 +116,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -143,24 +143,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj",
         "projectName": "GreenGrocerApp.Data",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,14 +175,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               }
             }
           }
@@ -197,7 +197,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -238,24 +238,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj",
         "projectName": "GreenGrocerApp.GCommon",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -282,7 +282,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -303,24 +303,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
         "projectName": "GreenGrocerApp.Services.AutoMapping",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -335,11 +335,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj"
               }
             }
           }
@@ -354,7 +354,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -381,24 +381,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
         "projectName": "GreenGrocerApp.Services.Common",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -425,7 +425,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -446,24 +446,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj",
         "projectName": "GreenGrocerApp.Services.Core",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -478,23 +478,23 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Common\\GreenGrocerApp.Services.Common.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj"
               }
             }
           }
@@ -509,7 +509,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -530,24 +530,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj",
         "projectName": "GreenGrocerApp.Web.Infrastructure",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -562,8 +562,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               }
             }
           }
@@ -578,7 +578,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -599,24 +599,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
         "projectName": "GreenGrocerApp.Web.ViewModels",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -631,14 +631,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj"
               }
             }
           }
@@ -653,7 +653,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -674,24 +674,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj": {
+    "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
         "projectName": "GreenGrocerApp.Web",
-        "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
-        "packagesPath": "C:\\Users\\tsang\\.nuget\\packages\\",
-        "outputPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web\\obj\\",
+        "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+        "packagesPath": "C:\\Users\\krang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -706,20 +706,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.GCommon\\GreenGrocerApp.GCommon.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.Infrastructure\\GreenGrocerApp.Web.Infrastructure.csproj"
               },
-              "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
-                "projectPath": "D:\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj"
+              "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj"
               }
             }
           }
@@ -734,7 +734,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -780,7 +780,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

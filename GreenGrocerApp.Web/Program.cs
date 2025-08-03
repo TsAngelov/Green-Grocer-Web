@@ -1,7 +1,7 @@
 ﻿namespace GreenGrocerApp.Web
 {
     using Data;
-
+    using GreenGrocerApp.Data.Models;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +20,7 @@
                 });
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
             builder.Services
-                .AddDefaultIdentity<IdentityUser>(options =>
+                .AddDefaultIdentity<ApplicationUser>(options =>
                 {
                     options.SignIn.RequireConfirmedAccount = true;
                 })
