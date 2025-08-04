@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "GreenGrocerApp.Services.AutoMapping/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
           "GreenGrocerApp.GCommon": "1.0.0",
-          "GreenGrocerApp.Services.Common": "1.0.0",
-          "AutoMapper": "14.0.0"
+          "GreenGrocerApp.Services.Common": "1.0.0"
         },
         "runtime": {
           "GreenGrocerApp.Services.AutoMapping.dll": {}

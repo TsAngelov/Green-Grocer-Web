@@ -1,7 +1,7 @@
 ﻿namespace GreenGrocerApp.Web
 {
     using Data;
-    using GreenGrocerApp.Data.Models;
+    using GreenGrocerApp.Data.Models.Users;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
@@ -9,26 +9,31 @@
     {
         public static void Main(string[] args)
         {
-            WebApplicationBuilder? builder = WebApplication.CreateBuilder(args);
-            
-            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            
+            var builder = WebApplication.CreateBuilder(args);
+
+            string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
             builder.Services
                 .AddDbContext<ApplicationDbContext>(options =>
                 {
                     options.UseSqlServer(connectionString);
                 });
+
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
             builder.Services
                 .AddDefaultIdentity<ApplicationUser>(options =>
                 {
                     options.SignIn.RequireConfirmedAccount = true;
                 })
+                .AddRoles<IdentityRole<Guid>>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
             builder.Services.AddControllersWithViews();
 
-            WebApplication? app = builder.Build();
-            
+            var app = builder.Build();
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseMigrationsEndPoint();

@@ -9,3 +9,11 @@ D:\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.D
 D:\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\refint\GreenGrocerApp.Data.Common.dll
 D:\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.pdb
 D:\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\ref\GreenGrocerApp.Data.Common.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.AssemblyInfoInputs.cache
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.AssemblyInfo.cs
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.sourcelink.json
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\refint\GreenGrocerApp.Data.Common.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Common\obj\Debug\net8.0\GreenGrocerApp.Data.Common.pdb
