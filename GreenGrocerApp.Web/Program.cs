@@ -2,6 +2,7 @@
 {
     using Data;
     using GreenGrocerApp.Data.Models.Users;
+    using GreenGrocerApp.Data.Seeding;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
@@ -56,6 +57,13 @@
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                var seeder = new ApplicationDbContextSeeder();
+                seeder.SeedAsync(dbContext).GetAwaiter().GetResult();
+            }
 
             app.Run();
         }
