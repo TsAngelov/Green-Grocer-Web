@@ -24,3 +24,12 @@ C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\D
 C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\Debug\net8.0\GreenGrocerApp.Data.Models.dll
 C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\Debug\net8.0\refint\GreenGrocerApp.Data.Models.dll
 C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\Debug\net8.0\GreenGrocerApp.Data.Models.pdb
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.Data.Models.deps.json
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.Data.Models.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.Data.Models.pdb
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.Data.Common.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.GCommon.dll
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.Data.Common.pdb
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\bin\Debug\net8.0\GreenGrocerApp.GCommon.pdb
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\Debug\net8.0\GreenGro.26A32554.Up2Date
+C:\Users\krang\Desktop\SoftUni\Green-Grocer-Web\GreenGrocerApp.Data.Models\obj\Debug\net8.0\ref\GreenGrocerApp.Data.Models.dll
