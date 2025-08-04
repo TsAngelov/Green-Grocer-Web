@@ -3,6 +3,8 @@
     using Data;
     using GreenGrocerApp.Data.Models.Users;
     using GreenGrocerApp.Data.Seeding;
+    using GreenGrocerApp.Services.Core.Implementations;
+    using GreenGrocerApp.Services.Core.Interfaces;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +34,11 @@
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
 
             var app = builder.Build();
 
