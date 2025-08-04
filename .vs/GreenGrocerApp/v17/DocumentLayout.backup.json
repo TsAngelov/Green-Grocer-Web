@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\products\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\products\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF166E95-087A-402E-B880-F30C9EF294CB}|GreenGrocerApp.Data\\GreenGrocerApp.Data.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\users\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\users\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\products\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\products\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DFFFB13-F4BD-4DDF-A923-17CB746B0CE8}|GreenGrocerApp.Data.Common\\GreenGrocerApp.Data.Common.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.common\\models\\basedeletablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\products\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\products\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\carts\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.data.models\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC10D63A-6958-4BA0-BFDC-8A28DD4CA8E3}|GreenGrocerApp.Data.Models\\GreenGrocerApp.Data.Models.csproj|solutionrelative:greengrocerapp.data.models\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,48 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250804114139_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs",
-              "RelativeToolTip": "GreenGrocerApp.Data\\Migrations\\20250804114139_InitialCreate.cs",
-              "ViewState": "AgIAAMgBAAAAAAAAAAAAwNYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T11:41:39.772Z",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "GreenGrocerApp.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T12:22:32.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Product.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Product.cs",
               "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Product.cs",
               "RelativeToolTip": "GreenGrocerApp.Data.Models\\Products\\Product.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T07:23:30.034Z"
+              "WhenOpened": "2025-08-04T07:23:30.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
-              "RelativeToolTip": "GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:00:07.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Category.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Category.cs",
@@ -111,23 +100,12 @@
               "RelativeToolTip": "GreenGrocerApp.Data.Models\\Products\\Category.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:28:06.845Z"
+              "WhenOpened": "2025-08-04T06:28:06.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
-              "RelativeToolTip": "GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T07:24:23.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Supply.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Supply.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Supply.cs",
@@ -139,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BaseDeletableModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Common\\Models\\BaseDeletableModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Common\\Models\\BaseDeletableModel.cs",
@@ -151,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Users\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Users\\ApplicationUser.cs",
@@ -163,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data\\ApplicationDbContext.cs",
@@ -171,12 +149,48 @@
               "RelativeToolTip": "GreenGrocerApp.Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:52:33.491Z",
+              "WhenOpened": "2025-08-04T06:52:33.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Program.cs",
+              "RelativeToolTip": "GreenGrocerApp.Web\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T06:53:20.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
+              "RelativeToolTip": "GreenGrocerApp.Data.Models\\Products\\Supplier.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T07:24:23.601Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
+              "RelativeToolTip": "GreenGrocerApp.Data.Models\\Carts\\CartItem.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:00:07.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Carts\\Cart.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Carts\\Cart.cs",
@@ -188,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Orders\\OrderItem.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Orders\\OrderItem.cs",
@@ -200,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Orders\\Order.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Orders\\Order.cs",
@@ -209,18 +223,6 @@
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T09:53:09.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Program.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Program.cs",
-              "RelativeToolTip": "GreenGrocerApp.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:53:20.641Z"
             }
           ]
         }

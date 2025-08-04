@@ -1,12 +1,7 @@
 ﻿using GreenGrocerApp.Data.Common.Models;
 using GreenGrocerApp.Data.Models.Carts;
 using GreenGrocerApp.Data.Models.Orders;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GreenGrocerApp.Data.Models.Products
 {
