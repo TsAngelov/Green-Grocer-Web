@@ -20,9 +20,14 @@ namespace GreenGrocerApp.Data.Models.Products
         [Range(0, int.MaxValue, ErrorMessage = "Quantity in stock must be zero or more.")]
         public int QuantityInStock { get; set; }
 
+        [Url]
+        [StringLength(300)]
+        public string? ImageUrl { get; set; }
+
         [Required(ErrorMessage = "Category is required.")]
         public Guid CategoryId { get; set; }
         public Category Category { get; set; } = null!;
+
 
         public ICollection<Supply> Supplies { get; set; } = new HashSet<Supply>();
         public ICollection<CartItem> CartItems { get; set; } = new HashSet<CartItem>();

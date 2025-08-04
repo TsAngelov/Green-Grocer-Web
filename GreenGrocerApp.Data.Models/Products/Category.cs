@@ -17,6 +17,10 @@ namespace GreenGrocerApp.Data.Models.Products
         [StringLength(200, ErrorMessage = "Description cannot be longer than {1} characters.")]
         public string? Description { get; set; }
 
+        [Url]
+        [StringLength(300)]
+        public string? ImageUrl { get; set; }
+
         public ICollection<Product> Products { get; set; } = new HashSet<Product>();
     }
 }
