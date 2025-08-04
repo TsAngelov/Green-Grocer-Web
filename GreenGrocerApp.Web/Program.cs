@@ -3,6 +3,7 @@
     using Data;
     using GreenGrocerApp.Data.Models.Users;
     using GreenGrocerApp.Data.Seeding;
+    using GreenGrocerApp.Services.AutoMapping.Profiles;
     using GreenGrocerApp.Services.Core.Implementations;
     using GreenGrocerApp.Services.Core.Interfaces;
     using Microsoft.AspNetCore.Identity;
@@ -39,6 +40,8 @@
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IOrderService, OrderService>();
+
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
 
             var app = builder.Build();
 
