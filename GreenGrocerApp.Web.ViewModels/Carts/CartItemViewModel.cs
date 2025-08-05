@@ -9,6 +9,7 @@ namespace GreenGrocerApp.Web.ViewModels.Carts
 {
     public class CartItemViewModel
     {
+        public Guid Id { get; set; }
         public Guid ProductId { get; set; }
 
         [Display(Name = "Product Name")]

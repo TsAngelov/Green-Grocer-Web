@@ -33,6 +33,7 @@ namespace GreenGrocerApp.Services.AutoMapping.Profiles
 
             // Cart
             CreateMap<CartItem, CartItemViewModel>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id)) // Needed for Remove form
                 .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name))
                 .ForMember(dest => dest.UnitPrice, opt => opt.MapFrom(src => src.Product.Price));
 

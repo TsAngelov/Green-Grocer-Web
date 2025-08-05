@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.services.automapping\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|solutionrelative:greengrocerapp.services.automapping\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\carts\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\carts\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\carts\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\carts\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\greengrocerapp.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\greengrocerapp.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.services.automapping\\greengrocerapp.services.automapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|solutionrelative:greengrocerapp.services.automapping\\greengrocerapp.services.automapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82C84DBE-1495-4B25-9650-835780D83CD2}|GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.services.core\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82C84DBE-1495-4B25-9650-835780D83CD2}|GreenGrocerApp.Services.Core\\GreenGrocerApp.Services.Core.csproj|solutionrelative:greengrocerapp.services.core\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.services.automapping\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|solutionrelative:greengrocerapp.services.automapping\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF06A478-4DBE-44E9-BD23-F6B9699B7ED7}|GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj|solutionrelative:greengrocerapp.web\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.services.automapping\\greengrocerapp.services.automapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B6D1C3DF-D6D1-43CF-81DF-543856775A5B}|GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj|solutionrelative:greengrocerapp.services.automapping\\greengrocerapp.services.automapping.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\greengrocerapp.web.viewmodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -103,14 +123,6 @@
       "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\orders\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\carts\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\carts\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\carts\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\carts\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|c:\\users\\krang\\desktop\\softuni\\green-grocer-web\\greengrocerapp.web.viewmodels\\products\\productinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBC5652B-743C-44B5-AA37-9E9766564E9C}|GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj|solutionrelative:greengrocerapp.web.viewmodels\\products\\productinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,24 +142,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "GreenGrocerApp.Web\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwB4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T19:20:54.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "GreenGrocerApp.Web\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T17:07:38.159Z",
+              "WhenOpened": "2025-08-05T19:18:25.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GreenGrocerApp.Web",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+              "RelativeToolTip": "GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T18:44:14.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
+              "RelativeToolTip": "GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:02:02.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
+              "RelativeToolTip": "GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:00:05.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:14:32.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GreenGrocerApp.Services.AutoMapping.csproj",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+              "RelativeToolTip": "GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T15:20:26.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Services.Core\\Interfaces\\IProductService.cs",
@@ -155,24 +245,23 @@
               "RelativeToolTip": "GreenGrocerApp.Services.Core\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T14:34:10.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T14:34:10.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GreenGrocerApp.Services.AutoMapping.csproj",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
-              "RelativeToolTip": "GreenGrocerApp.Services.AutoMapping\\GreenGrocerApp.Services.AutoMapping.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-05T15:20:26.077Z"
+              "DocumentIndex": 8,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "GreenGrocerApp.Web\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T17:07:38.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\Implementations\\CategoryService.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Services.Core\\Implementations\\CategoryService.cs",
@@ -185,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Products\\Details.cshtml",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Products\\Details.cshtml",
@@ -197,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Services.Core\\Interfaces\\ICategoryService.cs",
@@ -205,12 +294,11 @@
               "RelativeToolTip": "GreenGrocerApp.Services.Core\\Interfaces\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T14:32:24.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T14:32:24.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "GreenGrocerApp.Web.ViewModels.csproj",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
@@ -218,11 +306,12 @@
               "RelativeToolTip": "GreenGrocerApp.Web.ViewModels\\GreenGrocerApp.Web.ViewModels.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-05T15:24:09.743Z"
+              "WhenOpened": "2025-08-05T15:24:09.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Products\\Index.cshtml",
@@ -234,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ByCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Products\\ByCategory.cshtml",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Products\\ByCategory.cshtml",
@@ -246,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Categories\\Details.cshtml",
@@ -258,19 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
-              "RelativeToolTip": "GreenGrocerApp.Services.AutoMapping\\Profiles\\MappingProfile.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAhwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:14:32.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "CategoryInputModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Categories\\CategoryInputModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Categories\\CategoryInputModel.cs",
@@ -282,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "CategoryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Categories\\CategoryViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Categories\\CategoryViewModel.cs",
@@ -294,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CategoryWithProductsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Categories\\CategoryWithProductsViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Categories\\CategoryWithProductsViewModel.cs",
@@ -306,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Views\\Categories\\Index.cshtml",
@@ -318,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Controllers\\CategoriesController.cs",
@@ -330,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\Implementations\\ProductService.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Services.Core\\Implementations\\ProductService.cs",
@@ -342,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "SupplierInputModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Products\\SupplierInputModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Products\\SupplierInputModel.cs",
@@ -354,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\Program.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web\\Program.cs",
@@ -366,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Category.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Category.cs",
@@ -378,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data.Models\\Products\\Product.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data.Models\\Products\\Product.cs",
@@ -390,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "OrderHistoryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Orders\\OrderHistoryViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Orders\\OrderHistoryViewModel.cs",
@@ -402,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Orders\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Orders\\OrderViewModel.cs",
@@ -414,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "OrderItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Orders\\OrderItemViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Orders\\OrderItemViewModel.cs",
@@ -426,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "20250804151218_AddImageUrlToProductAndCategory.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Data\\Migrations\\20250804151218_AddImageUrlToProductAndCategory.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Data\\Migrations\\20250804151218_AddImageUrlToProductAndCategory.cs",
@@ -438,31 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CartViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
-              "RelativeToolTip": "GreenGrocerApp.Web.ViewModels\\Carts\\CartViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:02:02.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CartItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
-              "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
-              "ToolTip": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
-              "RelativeToolTip": "GreenGrocerApp.Web.ViewModels\\Carts\\CartItemViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:00:05.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "ProductInputModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Products\\ProductInputModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Products\\ProductInputModel.cs",
@@ -474,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web.ViewModels\\Products\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Web.ViewModels\\Products\\ProductViewModel.cs",
@@ -486,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core\\Implementations\\OrderService.cs",
               "RelativeDocumentMoniker": "GreenGrocerApp.Services.Core\\Implementations\\OrderService.cs",
