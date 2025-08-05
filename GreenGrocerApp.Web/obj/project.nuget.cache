@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Aq9c75KI63E=",
-  "success": false,
+  "dgSpecHash": "QRTw+aXuG3k=",
+  "success": true,
   "projectFilePath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krang\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
@@ -97,17 +97,6 @@
       "warningLevel": 1,
       "filePath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
       "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  GreenGrocerApp.Web -> GreenGrocerApp.Services.Core -> GreenGrocerApp.Services.AutoMapping -> GreenGrocerApp.Web.ViewModels.",
-      "projectPath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
-      "filePath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Web\\GreenGrocerApp.Web.csproj",
-      "libraryId": "GreenGrocerApp.Web.ViewModels",
       "targetGraphs": [
         "net8.0"
       ]

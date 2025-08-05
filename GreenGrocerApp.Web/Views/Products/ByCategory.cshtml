@@ -1,0 +1,40 @@
+﻿@model IEnumerable<GreenGrocerApp.Web.ViewModels.Products.ProductViewModel>
+
+@{
+    var categoryName = Model.FirstOrDefault()?.CategoryName ?? "Products";
+    ViewData["Title"] = categoryName;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Any())
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var product in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    @if (!string.IsNullOrWhiteSpace(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price: @product.Price.ToString("C")</li>
+                        <li class="list-group-item">In Stock: @product.QuantityInStock</li>
+                    </ul>
+                    <div class="card-body">
+                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No products available in this category.</p>
+}

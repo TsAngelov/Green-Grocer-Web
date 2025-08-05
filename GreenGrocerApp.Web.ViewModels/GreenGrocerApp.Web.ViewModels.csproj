@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\GreenGrocerApp.Data.Models\GreenGrocerApp.Data.Models.csproj" />
     <ProjectReference Include="..\GreenGrocerApp.GCommon\GreenGrocerApp.GCommon.csproj" />
-    <ProjectReference Include="..\GreenGrocerApp.Services.AutoMapping\GreenGrocerApp.Services.AutoMapping.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,21 @@
+﻿@model GreenGrocerApp.Web.ViewModels.Products.ProductViewModel
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="row">
+    <div class="col-md-6">
+        @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="img-fluid" alt="@Model.Name" />
+        }
+    </div>
+    <div class="col-md-6">
+        <h1>@Model.Name</h1>
+        <p>@Model.Description</p>
+        <p><strong>Category:</strong> @Model.CategoryName</p>
+        <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+        <p><strong>In Stock:</strong> @Model.QuantityInStock</p>
+    </div>
+</div>

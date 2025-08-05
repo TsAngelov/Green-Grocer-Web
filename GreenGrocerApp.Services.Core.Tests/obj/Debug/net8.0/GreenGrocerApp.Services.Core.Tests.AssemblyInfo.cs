@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenGrocerApp.Services.Core.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e4fea80b6a6f07e80fbe659848fd5c1eb19d656")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada61c9e40ec339ef3be14a0300249bede9bbc5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenGrocerApp.Services.Core.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenGrocerApp.Services.Core.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

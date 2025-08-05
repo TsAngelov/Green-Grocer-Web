@@ -1554,8 +1554,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "GreenGrocerApp.Data.Models": "1.0.0",
-          "GreenGrocerApp.GCommon": "1.0.0",
-          "GreenGrocerApp.Services.AutoMapping": "1.0.0"
+          "GreenGrocerApp.GCommon": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GreenGrocerApp.Web.ViewModels.dll": {}
