@@ -12,5 +12,9 @@ namespace GreenGrocerApp.Services.Core.Interfaces
         Task<IEnumerable<Category>> GetAllAsync();
         Task<Category?> GetByIdAsync(Guid id);
         Task<IEnumerable<Category>> GetAllWithProductsAsync();
+
+        Task<Guid> CreateAsync(CategoryInputModel model);
+        Task UpdateAsync(Guid id, CategoryInputModel model);
+        Task DeleteAsync(Guid id);
     }
 }

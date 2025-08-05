@@ -18,6 +18,8 @@ namespace GreenGrocerApp.Services.AutoMapping.Profiles
                 .ForMember(dest => dest.ProductsCount, opt => opt.MapFrom(src => src.Products.Count(p => !p.IsDeleted)));
 
             CreateMap<Category, CategoryWithProductsViewModel>();
+            CreateMap<CategoryInputModel, Category>();
+            CreateMap<Category, CategoryInputModel>();
 
             // Product
             CreateMap<Product, ProductViewModel>()
@@ -25,6 +27,9 @@ namespace GreenGrocerApp.Services.AutoMapping.Profiles
 
             CreateMap<ProductInputModel, Product>();
             CreateMap<Product, ProductInputModel>();
+
+            CreateMap<SupplierInputModel, Supplier>();
+            CreateMap<Supplier, SupplierInputModel>();
 
             // Cart
             CreateMap<CartItem, CartItemViewModel>()
