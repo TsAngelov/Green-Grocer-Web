@@ -2,6 +2,7 @@
 using GreenGrocerApp.Data;
 using GreenGrocerApp.Data.Models.Products;
 using GreenGrocerApp.Services.Core.Interfaces;
+using GreenGrocerApp.Web.ViewModels.Categories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
