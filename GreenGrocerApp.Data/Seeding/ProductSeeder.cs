@@ -9,8 +9,10 @@ namespace GreenGrocerApp.Data.Seeding
 {
     public class ProductSeeder : ISeeder
     {
-        public async Task SeedAsync(ApplicationDbContext dbContext)
+        public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
         {
+            _ = serviceProvider;
+
             if (dbContext.Products.Any())
             {
                 return;
