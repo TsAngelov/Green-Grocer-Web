@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenGrocerApp.Services.AutoMapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+814b32d8ad811832fdc3d0652cabc0584c27b776")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4599ee0d28a1146c3d75b7ebe95d39f43f7abe1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenGrocerApp.Services.AutoMapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenGrocerApp.Services.AutoMapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
