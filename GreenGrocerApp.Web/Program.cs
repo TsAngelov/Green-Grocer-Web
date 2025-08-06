@@ -54,7 +54,8 @@ namespace GreenGrocerApp.Web
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Error500");
+                app.UseStatusCodePagesWithReExecute("/Home/Error404", "?code={0}");
                 app.UseHsts();
             }
 
