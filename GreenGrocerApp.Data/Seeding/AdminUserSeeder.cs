@@ -2,9 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace GreenGrocerApp.Data.Seeding
@@ -16,18 +14,30 @@ namespace GreenGrocerApp.Data.Seeding
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
 
+            var roles = new[] { "Admin", "User" };
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new IdentityRole<Guid>(role));
+                }
+            }
+
             const string adminEmail = "admin@admin.com";
+            const string adminUserName = "admin";
             const string adminPassword = "Admin123!";
 
-            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+            var adminUser = await userManager.FindByNameAsync(adminUserName);
 
             if (adminUser == null)
             {
                 adminUser = new ApplicationUser
                 {
-                    UserName = adminEmail,
+                    FullName = adminUserName,
+                    UserName = adminUserName,
                     Email = adminEmail,
-                    EmailConfirmed = true
+                    EmailConfirmed = true,
+                    DeliveryAddress = "Admin",
                 };
 
                 var result = await userManager.CreateAsync(adminUser, adminPassword);
@@ -44,5 +54,4 @@ namespace GreenGrocerApp.Data.Seeding
             }
         }
     }
-
 }
