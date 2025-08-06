@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace GreenGrocerApp.Web.Areas.Admin.Controllers
-{    
+{
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
@@ -19,10 +19,9 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
         private readonly ICategoryService categoryService;
         private readonly IMapper mapper;
 
-        public ProductsController(
-            IProductService productService,
-            ICategoryService categoryService,
-            IMapper mapper)
+        public ProductsController(IProductService productService,
+                                  ICategoryService categoryService,
+                                  IMapper mapper)
         {
             this.productService = productService;
             this.categoryService = categoryService;
@@ -66,7 +65,6 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
             }
 
             var inputModel = mapper.Map<ProductInputModel>(product);
-            ViewBag.ProductId = id;
             await PopulateCategories();
             return View(inputModel);
         }
@@ -77,7 +75,6 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.ProductId = id;
                 await PopulateCategories();
                 return View(model);
             }

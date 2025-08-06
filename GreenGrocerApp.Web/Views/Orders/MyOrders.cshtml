@@ -1,0 +1,43 @@
+﻿@model IEnumerable<GreenGrocerApp.Web.ViewModels.Orders.OrderViewModel>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Order Date</th>
+                <th>Total Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderDate.ToString("g")</td>
+                    <td>@order.TotalPrice.ToString("C")</td>
+                    <td>
+                        <a asp-action="Details"
+                           asp-route-id="@order.Id"
+                           class="btn btn-sm btn-primary">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>You have no orders yet.</p>
+}

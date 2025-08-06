@@ -20,36 +20,36 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Categories/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Categories/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Categories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Products/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Products/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Areas/Views/Shared/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Views/Cart/Index.cshtml]
@@ -70,6 +70,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Views/Orders/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE15T3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/krang/Desktop/SoftUni/Green-Grocer-Web/GreenGrocerApp.Web/Views/Products/ByCategory.cshtml]

@@ -3,12 +3,11 @@
 @{
     ViewData["Title"] = "Edit Category";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
-    var categoryId = (Guid)ViewBag.CategoryId;
 }
 
 <h1>Edit Category</h1>
 
-<form asp-action="Edit" asp-route-id="@categoryId" method="post">
+<form asp-action="Edit" method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <div class="mb-3">

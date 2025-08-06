@@ -1,0 +1,36 @@
+﻿@model GreenGrocerApp.Web.ViewModels.Orders.OrderViewModel
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <strong>Order Date:</strong> @Model.OrderDate.ToString("g")<br />
+    <strong>Total Price:</strong> @Model.TotalPrice.ToString("C")
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th class="text-end">Unit Price</th>
+            <th class="text-end">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td class="text-end">@item.UnitPrice.ToString("C")</td>
+                <td class="text-end">@item.Total.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="MyOrders" class="btn btn-secondary">Back to Orders</a>

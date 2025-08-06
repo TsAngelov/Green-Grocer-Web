@@ -9,12 +9,9 @@ namespace GreenGrocerApp.Data.Seeding
 {
     public class CategorySeeder : ISeeder
     {
-        public async Task SeedAsync(ApplicationDbContext dbContext)
+        public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
         {
-            if (dbContext.Categories.Any())
-            {
-                return;
-            }
+            if (dbContext.Categories.Any()) return;
 
             await dbContext.Categories.AddRangeAsync(
                 new Category { Name = "Fruits", Description = "Fresh fruits" },

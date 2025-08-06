@@ -9,8 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GreenGrocerApp.Web.Areas.Admin.Controllers
 {
-    
-
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
     public class CategoriesController : Controller
@@ -57,7 +55,6 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
             }
 
             var inputModel = mapper.Map<CategoryInputModel>(category);
-            ViewBag.CategoryId = id;
             return View(inputModel);
         }
 
@@ -67,7 +64,6 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.CategoryId = id;
                 return View(model);
             }
 

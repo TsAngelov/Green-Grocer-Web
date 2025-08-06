@@ -1,17 +1,20 @@
-﻿namespace GreenGrocerApp.Web
+﻿using System;
+using System.Threading.Tasks;
+using GreenGrocerApp.Data;
+using GreenGrocerApp.Data.Models.Users;
+using GreenGrocerApp.Data.Seeding;
+using GreenGrocerApp.Services.AutoMapping.Profiles;
+using GreenGrocerApp.Services.Core.Implementations;
+using GreenGrocerApp.Services.Core.Interfaces;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
+namespace GreenGrocerApp.Web
 {
-    using Data;
-    using GreenGrocerApp.Data.Models.Users;
-    using GreenGrocerApp.Data.Seeding;
-    using GreenGrocerApp.Services.AutoMapping.Profiles;
-    using GreenGrocerApp.Services.Core.Implementations;
-    using GreenGrocerApp.Services.Core.Interfaces;
-    using Microsoft.AspNetCore.Identity;
-    using Microsoft.EntityFrameworkCore;
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -40,11 +43,8 @@
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IOrderService, OrderService>();
-            builder.Services.AddScoped<ICategoryService, CategoryService>();
-            builder.Services.AddScoped<IProductService, ProductService>();
 
             builder.Services.AddAutoMapper(typeof(MappingProfile));
-
 
             var app = builder.Build();
 
@@ -75,11 +75,10 @@
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
                 var seeder = new ApplicationDbContextSeeder();
-                seeder.SeedAsync(dbContext).GetAwaiter().GetResult();
+                await seeder.SeedAsync(dbContext, scope.ServiceProvider);
             }
 
-            app.Run();
+            await app.RunAsync();
         }
     }
 }
-
