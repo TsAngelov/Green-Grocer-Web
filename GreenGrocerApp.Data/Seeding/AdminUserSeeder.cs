@@ -16,7 +16,7 @@ namespace GreenGrocerApp.Data.Seeding
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole<Guid>>>();
 
-            const string adminEmail = "admin@greengrocer.com";
+            const string adminEmail = "admin@admin.com";
             const string adminPassword = "Admin123!";
 
             var adminUser = await userManager.FindByEmailAsync(adminEmail);

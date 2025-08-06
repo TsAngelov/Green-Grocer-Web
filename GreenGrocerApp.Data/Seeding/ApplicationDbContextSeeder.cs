@@ -58,7 +58,7 @@
         private static async Task SeedAdminUserAsync(UserManager<ApplicationUser> userManager)
         {
             const string email = "admin@admin.com";
-            const string username = "admin";
+            const string username = "test";
             const string password = "Admin123!";
 
             var admin = await userManager.FindByNameAsync(username);
@@ -66,9 +66,11 @@
             {
                 admin = new ApplicationUser
                 {
+                    FullName = username,
                     UserName = username,
                     Email = email,
                     EmailConfirmed = true,
+                    DeliveryAddress = "Admin"
                 };
 
                 var result = await userManager.CreateAsync(admin, password);
