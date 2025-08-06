@@ -6,28 +6,40 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Category</th>
-            <th>Price</th>
-            <th>Stock</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
+@if (Model.Any())
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach (var product in Model)
         {
-            <tr>
-                <td>@product.Name</td>
-                <td>@product.CategoryName</td>
-                <td>@product.Price.ToString("C")</td>
-                <td>@product.QuantityInStock</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-sm btn-primary">Details</a>
-                </td>
-            </tr>
+            <div class="col">
+                <div class="card h-100 product-card">
+                    @if (!string.IsNullOrWhiteSpace(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Category: @product.CategoryName</li>
+                        <li class="list-group-item">Price: @product.Price.ToString("C")</li>
+                        <li class="list-group-item">In Stock: @product.QuantityInStock</li>
+                    </ul>
+                    <div class="card-body">
+                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
+                        <form asp-controller="Cart" asp-action="Add" method="post" class="d-inline ms-2">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <input type="hidden" name="quantity" value="1" />
+                            <button type="submit" class="btn btn-success" @(product.QuantityInStock == 0 ? "disabled" : "")>Add to Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+    </div>
+}
+else
+{
+    <p>No products available.</p>
+}
