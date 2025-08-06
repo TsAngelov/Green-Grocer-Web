@@ -50,6 +50,13 @@ namespace GreenGrocerApp.Web.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
+            returnUrl ??= Url.Content("~/");
+
+            if (!Url.IsLocalUrl(returnUrl))
+            {
+                returnUrl = Url.Content("~/");
+            }
+
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
