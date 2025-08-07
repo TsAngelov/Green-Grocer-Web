@@ -28,7 +28,7 @@
     </div>
     <div class="mb-3">
         <label asp-for="CategoryId" class="form-label"></label>
-        <select asp-for="CategoryId" class="form-select" asp-items="new SelectList(ViewBag.Categories, \" Id\", \"Name\")"></select>
+        <select asp-for="CategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))"></select>
     </div>
     <div class="mb-3">
         <label asp-for="ImageUrl" class="form-label"></label>
