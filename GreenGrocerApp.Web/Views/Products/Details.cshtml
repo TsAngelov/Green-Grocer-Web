@@ -9,7 +9,7 @@
         <div class="col-md-6">
             @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
             {
-                <img src="@Model.ImageUrl" class="img-fluid rounded-start" alt="@Model.Name" />
+                <img src="@Url.Content(Model.ImageUrl)" class="img-fluid rounded-start" alt="@Model.Name" />
             }
         </div>
         <div class="col-md-6">
