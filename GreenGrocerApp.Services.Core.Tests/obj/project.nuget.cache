@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HeTtGcsPeow=",
+  "dgSpecHash": "9EfE70RTtqI=",
   "success": true,
   "projectFilePath": "C:\\Users\\krang\\Desktop\\SoftUni\\Green-Grocer-Web\\GreenGrocerApp.Services.Core.Tests\\GreenGrocerApp.Services.Core.Tests.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.15\\microsoft.entityframeworkcore.8.0.15.nupkg.sha512",
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.15\\microsoft.entityframeworkcore.abstractions.8.0.15.nupkg.sha512",
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.15\\microsoft.entityframeworkcore.analyzers.8.0.15.nupkg.sha512",
+    "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.15\\microsoft.entityframeworkcore.inmemory.8.0.15.nupkg.sha512",
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.15\\microsoft.entityframeworkcore.relational.8.0.15.nupkg.sha512",
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.15\\microsoft.entityframeworkcore.sqlserver.8.0.15.nupkg.sha512",
     "C:\\Users\\krang\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",

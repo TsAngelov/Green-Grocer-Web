@@ -37,6 +37,13 @@ namespace GreenGrocerApp.Services.Core.Implementations
 
             foreach (var item in cart.CartItems)
             {
+                if (item.Product.QuantityInStock < item.Quantity)
+                {
+                    throw new InvalidOperationException($"Insufficient stock for product '{item.Product.Name}'.");
+                }
+
+                item.Product.QuantityInStock -= item.Quantity;
+
                 order.OrderItems.Add(new OrderItem
                 {
                     ProductId = item.ProductId,
