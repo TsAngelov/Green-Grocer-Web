@@ -3,7 +3,7 @@
 <div class="card h-100 product-card">
     @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
     {
-        <img src="@Url.Content(Model.ImageUrl)" class="card-img-top" alt="@Model.Name" />
+        <img src="@Url.Content(Model.ImageUrl)" class="card-img-top product-image" alt="@Model.Name" />
     }
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
