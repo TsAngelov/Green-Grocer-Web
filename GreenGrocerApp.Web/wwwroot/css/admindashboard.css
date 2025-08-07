@@ -1,0 +1,63 @@
+﻿/* Admin Dashboard Styles */
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+    }
+
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+    .btn:hover {
+        transform: translateY(-1px);
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Card header styling */
+.card-header {
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+/* Button group styling */
+.d-grid .btn + .btn {
+    margin-top: 0.5rem;
+}
+
+/* Quick actions section */
+.quick-actions-btn {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+    .quick-actions-btn i {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+/* Icon styling */
+.fas {
+    width: 20px;
+    text-align: center;
+}

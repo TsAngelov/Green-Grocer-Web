@@ -1,32 +1,133 @@
 ﻿@{
     ViewData["Title"] = "Dashboard";
 }
-<h1 class="mb-4">Admin Dashboard</h1>
-<div class="row g-4">
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Products</h5>
-                <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="btn btn-primary">Manage</a>
-                <a asp-area="Admin" asp-controller="Products" asp-action="Create" class="btn btn-secondary">Create</a>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/admin-dashboard.css" asp-append-version="true" />
+}
+
+<div class="container-fluid">
+    <h1 class="mb-4">Admin Dashboard</h1>
+
+    <div class="row g-4">
+        <!-- Products Card -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-box me-2"></i>Products
+                    </h5>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <p class="card-text">Manage your product inventory, add new products, and update existing ones.</p>
+                    <div class="mt-auto">
+                        <div class="d-grid gap-2">
+                            <a asp-area="Admin" asp-controller="Products" asp-action="Index"
+                               class="btn btn-primary btn-lg">
+                                <i class="fas fa-list me-2"></i>Manage Products
+                            </a>
+                            <a asp-area="Admin" asp-controller="Products" asp-action="Create"
+                               class="btn btn-outline-primary">
+                                <i class="fas fa-plus me-2"></i>Create New Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories Card -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-tags me-2"></i>Categories
+                    </h5>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <p class="card-text">Organize your products by creating and managing product categories.</p>
+                    <div class="mt-auto">
+                        <div class="d-grid gap-2">
+                            <a asp-area="Admin" asp-controller="Categories" asp-action="Index"
+                               class="btn btn-success btn-lg">
+                                <i class="fas fa-list me-2"></i>Manage Categories
+                            </a>
+                            <a asp-area="Admin" asp-controller="Categories" asp-action="Create"
+                               class="btn btn-outline-success">
+                                <i class="fas fa-plus me-2"></i>Create New Category
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suppliers Card -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="card-title mb-0">
+                        <i class="fas fa-truck me-2"></i>Suppliers
+                    </h5>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <p class="card-text">Manage your supplier relationships and contact information.</p>
+                    <div class="mt-auto">
+                        <div class="d-grid gap-2">
+                            <a asp-area="Admin" asp-controller="Suppliers" asp-action="Index"
+                               class="btn btn-warning btn-lg text-dark">
+                                <i class="fas fa-list me-2"></i>Manage Suppliers
+                            </a>
+                            <a asp-area="Admin" asp-controller="Suppliers" asp-action="Create"
+                               class="btn btn-outline-warning text-dark">
+                                <i class="fas fa-plus me-2"></i>Create New Supplier
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Categories</h5>
-                <a asp-area="Admin" asp-controller="Categories" asp-action="Index" class="btn btn-primary">Manage</a>
-                <a asp-area="Admin" asp-controller="Categories" asp-action="Create" class="btn btn-secondary">Create</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Suppliers</h5>
-                <a asp-area="Admin" asp-controller="Suppliers" asp-action="Index" class="btn btn-primary">Manage</a>
-                <a asp-area="Admin" asp-controller="Suppliers" asp-action="Create" class="btn btn-secondary">Create</a>
+
+    <!-- Quick Stats Row (Optional Enhancement) -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-6 col-md-3">
+                            <a asp-area="Admin" asp-controller="Products" asp-action="Create"
+                               class="btn btn-outline-primary w-100">
+                                <i class="fas fa-plus-circle d-block mb-1"></i>
+                                Add Product
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a asp-area="Admin" asp-controller="Categories" asp-action="Create"
+                               class="btn btn-outline-success w-100">
+                                <i class="fas fa-tag d-block mb-1"></i>
+                                Add Category
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a asp-area="Admin" asp-controller="Suppliers" asp-action="Create"
+                               class="btn btn-outline-warning w-100">
+                                <i class="fas fa-truck-loading d-block mb-1"></i>
+                                Add Supplier
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <a asp-area="" asp-controller="Home" asp-action="Index"
+                               class="btn btn-outline-secondary w-100">
+                                <i class="fas fa-home d-block mb-1"></i>
+                                Main Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
