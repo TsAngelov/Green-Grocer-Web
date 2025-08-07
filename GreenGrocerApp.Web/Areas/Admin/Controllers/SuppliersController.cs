@@ -54,6 +54,7 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
             }
 
             var inputModel = mapper.Map<SupplierInputModel>(supplier);
+            ViewBag.SupplierId = id;
             return View(inputModel);
         }
 
@@ -63,6 +64,7 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
+                ViewBag.SupplierId = id;
                 return View(model);
             }
 

@@ -26,6 +26,7 @@ namespace GreenGrocerApp.Services.Core.Implementations
         public async Task<IEnumerable<Category>> GetAllAsync() =>
             await dbContext.Categories
                 .Where(c => !c.IsDeleted)
+                .Include(c => c.Products.Where(p => !p.IsDeleted))
                 .AsNoTracking()
                 .ToListAsync();
 

@@ -72,7 +72,7 @@ namespace GreenGrocerApp.Services.Core.Implementations
         public async Task ClearCartAsync(Guid userId)
         {
             var cart = await GetCartByUserIdAsync(userId);
-            cart.CartItems.Clear();
+            _dbContext.CartItems.RemoveRange(cart.CartItems);
             await _dbContext.SaveChangesAsync();
         }
     }

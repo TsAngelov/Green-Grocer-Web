@@ -66,6 +66,7 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
 
             var inputModel = mapper.Map<ProductInputModel>(product);
             await PopulateCategories();
+            ViewBag.ProductId = id;
             return View(inputModel);
         }
 
@@ -76,6 +77,7 @@ namespace GreenGrocerApp.Web.Areas.Admin.Controllers
             if (!ModelState.IsValid)
             {
                 await PopulateCategories();
+                ViewBag.ProductId = id;
                 return View(model);
             }
 
