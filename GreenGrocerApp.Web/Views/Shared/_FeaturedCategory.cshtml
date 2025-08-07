@@ -1,0 +1,9 @@
+﻿@model GreenGrocerApp.Web.ViewModels.Categories.CategoryViewModel
+
+<div class="col-md-4 mb-3">
+    <div class="featured-category p-3 border rounded text-center">
+        <h3>@Model.Name</h3>
+        <p>@Model.Description</p>
+        <a asp-controller="Categories" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-primary mt-2">View Products</a>
+    </div>
+</div>

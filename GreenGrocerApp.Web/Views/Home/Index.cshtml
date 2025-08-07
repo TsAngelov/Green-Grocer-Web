@@ -1,18 +1,80 @@
-﻿@{
+﻿@using GreenGrocerApp.Web.ViewModels.Products
+@model IEnumerable<GreenGrocerApp.Web.ViewModels.Categories.CategoryViewModel>
+
+@{
     ViewData["Title"] = "Home";
+
+    var featuredProducts = new List<ProductViewModel>
+    {
+        new()
+        {
+            Id = Guid.NewGuid(),
+            Name = "Apples",
+            Description = "Crisp and juicy apples.",
+            Price = 1.99m,
+            QuantityInStock = 50,
+            CategoryName = "Fruits",
+            ImageUrl = "https://via.placeholder.com/300x200?text=Apples"
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            Name = "Bananas",
+            Description = "Sweet ripe bananas.",
+            Price = 0.99m,
+            QuantityInStock = 80,
+            CategoryName = "Fruits",
+            ImageUrl = "https://via.placeholder.com/300x200?text=Bananas"
+        },
+        new()
+        {
+            Id = Guid.NewGuid(),
+            Name = "Carrots",
+            Description = "Organic crunchy carrots.",
+            Price = 2.49m,
+            QuantityInStock = 40,
+            CategoryName = "Vegetables",
+            ImageUrl = "https://via.placeholder.com/300x200?text=Carrots"
+        }
+    };
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Green Grocer</h1>
-    <p>Your one-stop shop for fresh produce.</p>
-</div>
-
-<section class="mt-4">
-    <h2>Featured Products</h2>
-    <p>Coming soon...</p>
+<section class="py-5 mb-5 text-center text-white" style="background: linear-gradient(135deg,#56ab2f,#a8e063);">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Fresh From Farm to Table</h1>
+        <p class="lead">Quality produce delivered straight to your door.</p>
+        <div class="mt-4">
+            <a asp-controller="Products" asp-action="Index" class="btn btn-light btn-lg me-2">Shop Products</a>
+            <a asp-controller="Categories" asp-action="Index" class="btn btn-outline-light btn-lg">Browse Categories</a>
+        </div>
+    </div>
 </section>
 
 <section class="mt-4">
-    <h2>Latest News</h2>
-    <p>Updates will appear here.</p>
-</section>  
+    <h2>Featured Categories</h2>
+    <div class="row">
+        @if (Model?.Any() == true)
+        {
+            @foreach (var category in Model)
+            {
+                <partial name="_FeaturedCategory" model="category" />
+            }
+        }
+        else
+        {
+            <p>No featured categories available.</p>
+        }
+    </div>
+</section>
+
+<section class="container mb-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var product in featuredProducts)
+        {
+            <div class="col">
+                @await Html.PartialAsync("_ProductCardPartial", product)
+            </div>
+        }
+    </div>
+</section>
