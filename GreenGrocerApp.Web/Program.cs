@@ -44,6 +44,7 @@ namespace GreenGrocerApp.Web
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<ISupplierService, SupplierService>();
 
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 

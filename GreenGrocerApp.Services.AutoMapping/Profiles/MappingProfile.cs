@@ -30,6 +30,7 @@ namespace GreenGrocerApp.Services.AutoMapping.Profiles
 
             CreateMap<SupplierInputModel, Supplier>();
             CreateMap<Supplier, SupplierInputModel>();
+            CreateMap<Supplier, SupplierViewModel>();
 
             // Cart
             CreateMap<CartItem, CartItemViewModel>()

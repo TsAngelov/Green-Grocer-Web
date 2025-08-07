@@ -1,0 +1,42 @@
+﻿@model IEnumerable<GreenGrocerApp.Web.ViewModels.Products.SupplierViewModel>
+
+@{
+    ViewData["Title"] = "Suppliers";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Suppliers</h1>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Contact Info</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var supplier in Model)
+        {
+            <tr>
+                <td>@supplier.Name</td>
+                <td>@supplier.ContactInfo</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@supplier.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@supplier.Id" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?');">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
