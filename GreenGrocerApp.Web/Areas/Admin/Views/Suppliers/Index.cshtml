@@ -1,0 +1,28 @@
+﻿@using GreenGrocerApp.Web.ViewModels.Products
+@model IEnumerable<SupplierViewModel>
+@{
+    ViewData["Title"] = "Suppliers";
+}
+<h1>Suppliers</h1>
+<a asp-action="Create" class="btn btn-secondary mb-3">Create Supplier</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Contact Info</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.ContactInfo</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

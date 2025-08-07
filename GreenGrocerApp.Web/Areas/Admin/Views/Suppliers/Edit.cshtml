@@ -1,0 +1,24 @@
+﻿@using GreenGrocerApp.Web.ViewModels.Products
+@model SupplierInputModel
+@{
+    ViewData["Title"] = "Edit Supplier";
+    var supplierId = (Guid)ViewData["SupplierId"];
+}
+<h1>Edit Supplier</h1>
+<form asp-action="Edit" asp-route-id="@supplierId" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ContactInfo" class="form-label"></label>
+        <input asp-for="ContactInfo" class="form-control" />
+        <span asp-validation-for="ContactInfo" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
