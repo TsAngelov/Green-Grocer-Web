@@ -40,7 +40,20 @@ namespace GreenGrocerApp.Services.Core.Implementations
         {
             var cart = await GetCartByUserIdAsync(userId);
 
+            var product = await _dbContext.Products
+                .FirstOrDefaultAsync(p => p.Id == productId && !p.IsDeleted);
+            if (product == null)
+            {
+                throw new ArgumentException("Product not found.", nameof(productId));
+            }
+
             var existingItem = cart.CartItems.FirstOrDefault(ci => ci.ProductId == productId);
+            var requestedQuantity = quantity + (existingItem?.Quantity ?? 0);
+            if (requestedQuantity > product.QuantityInStock)
+            {
+                throw new InvalidOperationException("Insufficient stock available.");
+            }
+
             if (existingItem != null)
             {
                 existingItem.Quantity += quantity;

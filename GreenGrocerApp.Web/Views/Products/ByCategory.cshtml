@@ -5,6 +5,12 @@
     ViewData["Title"] = categoryName;
 }
 
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+
 <h1>@ViewData["Title"]</h1>
 
 @if (Model.Any())
@@ -30,7 +36,7 @@
                         <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
                         <form asp-controller="Cart" asp-action="Add" method="post" class="d-inline ms-2">
                             <input type="hidden" name="productId" value="@product.Id" />
-                            <input type="hidden" name="quantity" value="1" />
+                            <input type="number" name="quantity" value="1" min="1" max="@product.QuantityInStock" class="form-control d-inline w-auto me-2" />
                             <button type="submit" class="btn btn-success" @(product.QuantityInStock == 0 ? "disabled" : "")>Add to Cart</button>
                         </form>
                     </div>

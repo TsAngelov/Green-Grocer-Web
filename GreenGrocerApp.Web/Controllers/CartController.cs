@@ -39,13 +39,34 @@ namespace GreenGrocerApp.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(Guid productId, int quantity)
         {
+            if (quantity < 1)
+            {
+                TempData["Error"] = "Quantity must be at least 1.";
+                return RedirectToAction("Details", "Products", new { id = productId });
+            }
+
             var product = await productService.GetByIdAsync(productId);
             if (product == null)
             {
                 return NotFound();
             }
 
-            await cartService.AddItemAsync(GetUserId(), productId, quantity);
+            if (quantity > product.QuantityInStock)
+            {
+                TempData["Error"] = "Insufficient stock available.";
+                return RedirectToAction("Details", "Products", new { id = productId });
+            }
+
+            try
+            {
+                await cartService.AddItemAsync(GetUserId(), productId, quantity);
+            }
+            catch (InvalidOperationException ex)
+            {
+                TempData["Error"] = ex.Message;
+                return RedirectToAction("Details", "Products", new { id = productId });
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
