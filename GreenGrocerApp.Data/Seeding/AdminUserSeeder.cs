@@ -1,4 +1,5 @@
-﻿using GreenGrocerApp.Data.Models.Users;
+﻿
+using GreenGrocerApp.Data.Models.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -24,17 +25,17 @@ namespace GreenGrocerApp.Data.Seeding
             }
 
             const string adminEmail = "admin@admin.com";
-            const string adminUserName = "admin";
+            const string adminFullName = "Admin";
             const string adminPassword = "Admin123!";
 
-            var adminUser = await userManager.FindByNameAsync(adminUserName);
+            var adminUser = await userManager.FindByNameAsync(adminEmail);
 
             if (adminUser == null)
             {
                 adminUser = new ApplicationUser
                 {
-                    FullName = adminUserName,
-                    UserName = adminUserName,
+                    FullName = adminFullName,
+                    UserName = adminEmail,
                     Email = adminEmail,
                     EmailConfirmed = true,
                     DeliveryAddress = "Admin",

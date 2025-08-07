@@ -1,42 +1,7 @@
-﻿@using GreenGrocerApp.Web.ViewModels.Products
-@model IEnumerable<GreenGrocerApp.Web.ViewModels.Categories.CategoryViewModel>
+﻿@model GreenGrocerApp.Web.ViewModels.Home.HomeIndexViewModel
 
 @{
     ViewData["Title"] = "Home";
-
-    var featuredProducts = new List<ProductViewModel>
-    {
-        new()
-        {
-            Id = Guid.NewGuid(),
-            Name = "Apples",
-            Description = "Crisp and juicy apples.",
-            Price = 1.99m,
-            QuantityInStock = 50,
-            CategoryName = "Fruits",
-            ImageUrl = "https://via.placeholder.com/300x200?text=Apples"
-        },
-        new()
-        {
-            Id = Guid.NewGuid(),
-            Name = "Bananas",
-            Description = "Sweet ripe bananas.",
-            Price = 0.99m,
-            QuantityInStock = 80,
-            CategoryName = "Fruits",
-            ImageUrl = "https://via.placeholder.com/300x200?text=Bananas"
-        },
-        new()
-        {
-            Id = Guid.NewGuid(),
-            Name = "Carrots",
-            Description = "Organic crunchy carrots.",
-            Price = 2.49m,
-            QuantityInStock = 40,
-            CategoryName = "Vegetables",
-            ImageUrl = "https://via.placeholder.com/300x200?text=Carrots"
-        }
-    };
 }
 
 <section class="py-5 mb-5 text-center text-white" style="background: linear-gradient(135deg,#56ab2f,#a8e063);">
@@ -53,9 +18,9 @@
 <section class="mt-4">
     <h2>Featured Categories</h2>
     <div class="row">
-        @if (Model?.Any() == true)
+        @if (Model?.Categories?.Any() == true)
         {
-            @foreach (var category in Model)
+            @foreach (var category in Model.Categories)
             {
                 <partial name="_FeaturedCategory" model="category" />
             }
@@ -70,7 +35,7 @@
 <section class="container mb-5">
     <h2 class="text-center mb-4">Featured Products</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        @foreach (var product in featuredProducts)
+        @foreach (var product in Model.FeaturedProducts)
         {
             <div class="col">
                 @await Html.PartialAsync("_ProductCardPartial", product)
