@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenGrocerApp.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e5b0a10a2a7793df7739592929d26f17711126")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2eb5116b4ab6354d5c6d036bab4b66c365d4ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenGrocerApp.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenGrocerApp.Web.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
