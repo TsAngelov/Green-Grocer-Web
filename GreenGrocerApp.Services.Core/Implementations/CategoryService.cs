@@ -33,6 +33,7 @@ namespace GreenGrocerApp.Services.Core.Implementations
         public async Task<Category?> GetByIdAsync(Guid id) =>
             await dbContext.Categories
                 .Where(c => !c.IsDeleted && c.Id == id)
+            .Include(c => c.Products.Where(p => !p.IsDeleted))
                 .AsNoTracking()
                 .FirstOrDefaultAsync();
 
